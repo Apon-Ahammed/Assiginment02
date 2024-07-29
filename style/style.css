@@ -1,7 +1,7 @@
 .body{
     padding: 5px;
     margin: 50px;
-    background-color: #0501017d;
+    background-color: #222222;
 }
 /* .header{
 
@@ -116,6 +116,7 @@ li,a,.name{
 
 /* section-2 */
 
+
 .title-2{
     
     font-size: 48px;
@@ -124,6 +125,8 @@ li,a,.name{
     text-align: center;
     padding-bottom: 0px;
 }
+
+
 .discription-2{
 
     color: #FFFFFF80;
@@ -167,6 +170,67 @@ li,a,.name{
     padding-bottom: 10px;
 }
 
+/* section-3 */
+
+.title-3{
+
+    font-size: 48px;
+    font-weight:bolder;
+     color:#FFFFFF ;
+    line-height: 30px;
+     padding-bottom: 0px;
+
+}
+.discription-3{
+
+    color: #FFFFFF80;
+    font-size: 16px;
+  
+    padding-bottom: 10px;
+    
+
+}
+
+.section3{
+
+    background-color: #222222;   
+    border-radius: 20px;
+    line-height: 20px;
+    margin: 30px;
+}
+
+
+.container-1{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 90px;
+}
+
+.section3-title{
+
+   
+   padding-top: 44px;
+    padding-left: 54px;
+}
+.container-runimg{
+
+   
+    border-radius: 30px;
+
+}
+
+.img-run{
+
+    height:316px ;
+    width: 312px;
+    border-radius: 30px;
+    padding: 20px 20px;
+    
+
+}
+
 
 
 
@@ -175,6 +239,13 @@ li,a,.name{
     
     .four-pic,.first-section,.img{
         grid-template-columns: 1fr;
+    }
+
+    .container-1{
+
+        display: grid;
+        grid-template-columns: repeat(1fr);
+
     }
 
 
