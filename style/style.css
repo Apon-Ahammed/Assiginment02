@@ -1,7 +1,7 @@
 .body{
-    padding: 5px;
-    margin: 50px;
-    background-color: #222222;
+    /* padding: 5px;
+    margin: 50px; */
+    background-color: #111111;
 }
 /* .header{
 
@@ -55,6 +55,17 @@ li,a,.name{
     gap: 30px;
   font-size: 25px;
    border-radius: 40px;
+   color: white;
+   padding: 10px 30px 10px 30px;
+}
+
+#btn-small{
+
+    background-color:#E6533C;
+    gap: 300px;
+  font-size: 18px;
+   border-radius: 40px;
+   font-weight: 600;
    color: white;
    padding: 10px 30px 10px 30px;
 }
@@ -231,8 +242,219 @@ li,a,.name{
 
 }
 
+.section4{
+
+    margin: 0px 25px 25px 25px;
+}
+
+.title-4{
+
+    font-weight: bolder;
+    font-size: 58px;
+    color: #FFFFFF;
+}
+
+.discription-4{
+
+    color: #FFFFFF80;
+    font-size: 16px;
+    padding-bottom: 20px;
+    
+}
+
+.container-2{
+
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.train-img{
+
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+   
+    /* justify-content: center; */
+    /* align-items: center; */
+   
+}
+
+.trainer{
+
+    background-color: #FFFFFF1A;
+    /* border-radius: 20px; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px 30px;
+    margin-top: 20px;
+    
+   
+}
+
+/* footer section */
+
+.title-5{
+
+    color: #E6533C;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.title-6{
+
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.get-started, p, .discription-5{
+
+    color: #FFFFFF80;
+    font-size: 16px ;
+}
+
+.footer-last{
+
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #FFFFFF1A;
+    width: 100%;
+
+}
 
 
+
+.title-6{
+
+    font-size: 48px;
+    font-weight:bolder;
+     color:#FFFFFF ;
+    line-height: 30px;
+     padding-bottom: 0px;
+
+}
+.discription-6,.discription-my-bmi{
+
+    color: #FFFFFF80;
+    font-size: 16px;
+  
+    padding-bottom: 10px;
+    
+
+}
+
+/* section5 */
+
+.section5{
+
+
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+
+.Calculator-5{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    background-color: #222222;
+    
+    
+}
+
+
+.section5-cover{
+
+    align-items:center;
+    text-align: left;
+}
+
+.table-1,td,th{
+
+    border: 2px solid #FFFFFF1A;
+    border-collapse: collapse;
+
+    
+    
+}
+th, td {
+    font-size: 14px;
+    font-weight: 400px;
+    text-align: left;
+    padding: 10px;
+}
+
+td{
+
+    font-size: 14px;
+    color: #FFFFFF80;
+}
+
+
+.bmi-chart,#table-head{
+
+    color:#FFFFFF ;
+}
+
+.bmi-chart{
+
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+
+
+.input{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: #FFFFFF99;
+    gap: 10px;
+}
+
+#input-data-7{
+
+    grid-column: span 2;
+   
+}
+
+.input-data{
+
+    background-color: #FFFFFF1A;
+    text-decoration: #FFFFFF99;
+    border-radius: 8px;
+    padding:12px 40px 12px 20px;
+    
+}
+
+.footer-last{
+/* 
+    display: grid;
+    grid-template-areas: repeat(3,1fr); */
+
+    padding: 20px 20px 30px 80px;
+}
+
+.finish{
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsib media query */
 
 @media screen and (max-width:576px) {
 
