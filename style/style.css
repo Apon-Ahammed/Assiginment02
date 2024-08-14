@@ -10,6 +10,7 @@
 .navber{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .name{
@@ -31,6 +32,7 @@ li,a,.name{
     border-radius: 30px;
     display: flex;
     justify-content: center;
+    border: none;
     
    
 }
@@ -57,6 +59,7 @@ li,a,.name{
    border-radius: 40px;
    color: white;
    padding: 10px 30px 10px 30px;
+   border: none;
 }
 
 #btn-small{
@@ -68,6 +71,7 @@ li,a,.name{
    font-weight: 600;
    color: white;
    padding: 10px 30px 10px 30px;
+   border: none;
 }
 .btn-2{
 
@@ -77,6 +81,7 @@ li,a,.name{
     border-radius: 40px;
     color: white;
     padding: 10px 30px 10px 30px;
+    border: none;
  }
 /* .cover{
     
@@ -242,6 +247,8 @@ li,a,.name{
 
 }
 
+/* .section4 */
+
 .section4{
 
     margin: 0px 25px 25px 25px;
@@ -280,17 +287,61 @@ li,a,.name{
    
 }
 
-.trainer{
+.img-ap{
 
     background-color: #FFFFFF1A;
-    /* border-radius: 20px; */
+   
+   
+}
+
+.trainer-pic{
+
+  
+    border-radius: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px 30px;
-    margin-top: 20px;
+    padding: 50px 20px 30px 80px;
     
+    
+}
+
+.img-apos{
+
+    position: relative;
+   
    
 }
+
+.text{
+
+    position: absolute;
+    bottom: 8px;
+  left: 16px;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.name1{
+
+    color:#FFFFFF;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.podobi{
+
+    
+    color:#FFFFFF80;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* .frist-trainer{
+
+    position: relative;
+    position: absolute;
+} */
 
 /* footer section */
 
@@ -348,17 +399,13 @@ li,a,.name{
 
 /* section5 */
 
-.section5{
 
-
-    display: grid;
-    grid-template-rows: repeat(2,1fr);
-}
 
 .Calculator-5{
 
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    padding: 60px 60px 60px 60px;
     align-items: center;
     background-color: #222222;
     
@@ -366,10 +413,12 @@ li,a,.name{
 }
 
 
-.section5-cover{
 
-    align-items:center;
-    text-align: left;
+.section5-cover {
+
+    align-items: center;
+
+  
 }
 
 .table-1,td,th{
@@ -405,6 +454,12 @@ td{
     font-weight: bolder;
 }
 
+#btn-small{
+
+    margin-top: 20px;
+   
+}
+
 
 
 .input{
@@ -413,11 +468,19 @@ td{
     grid-template-columns: repeat(2,1fr);
     color: #FFFFFF99;
     gap: 10px;
+    
+}
+
+.input-data{
+
+    border: none;
+    
 }
 
 #input-data-7{
 
     grid-column: span 2;
+    border: none;
    
 }
 
@@ -430,18 +493,40 @@ td{
     
 }
 
+/* footer-part */
+
+.footer{
+
+    color: #FFFFFF1A;
+}
+
 .footer-last{
-/* 
+
     display: grid;
-    grid-template-areas: repeat(3,1fr); */
+    grid-template-areas: repeat(3,1fr);
 
     padding: 20px 20px 30px 80px;
+
+}
+
+.hr{
+
+    color: #FFFFFF1A;
+    color: #FFFFFF1A;
+    width: 100%;
 }
 
 .finish{
 
     text-align: center;
 }
+
+.last{
+
+    background-color: #FFFFFF1A;
+}
+
+
 
 
 
