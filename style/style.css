@@ -7,6 +7,35 @@
 
     width: 50%;
 } */
+
+/* Mobile navigation bar */
+
+/* 
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 24px;
+    cursor: pointer;
+    display: block;
+    padding: 15px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+#check:checked ~ .menu {
+    display: block;
+} */
+
+/* .checkbtn{
+
+    font-size: 30px;
+    color: hotpink;
+} */
 .navber{
     display: flex;
     justify-content: space-between;
@@ -371,7 +400,7 @@ li,a,.name{
    
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    background-color: #FFFFFF1A;
+    /* background-color: #FFFFFF1A; */
     width: 100%;
 
 }
@@ -499,15 +528,15 @@ td{
 
 .footer{
 
-    color: #FFFFFF1A;
+    background-color: #FFFFFF1A;
   
     
 }
 
-.try{
+/* .try{
 
     padding: 30px;
-}
+} */
 .footer-last{
 
     display: grid;
@@ -523,11 +552,16 @@ td{
     color: #FFFFFF1A;
     width: 100%;
 } */
+ .hr{
 
-/* .finish{
+    color: #FFFFFF1A 10%;
+ }
+
+.finish{
 
     text-align: center;
-} */
+    padding: 20px;
+}
 
 /* .footer-last .last{
 
@@ -547,7 +581,7 @@ td{
 
 
 
-
+/* responsib media query */
 
 /* responsib media query */
 
@@ -565,6 +599,7 @@ td{
 
     }
 
+  
 
 
     
@@ -582,11 +617,52 @@ td{
        
     }
 
+    .section5-cover{
+
+        display: flex;
+        flex-direction: column;
+        /* padding: 0px;
+        display: grid;
+        grid-template-columns: 1fr; */
+    }
+
+    .Calculator-5, .my-bmi{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my-bmi{
+
+        display: flex;
+        flex-direction: column;
+        padding:0px;
+    }
+
+    .title-discriotion{
+
+        padding-left:0px;
+        margin:0px
+
+    }
+
     .trainer-pic{
 
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    .footer-last{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .Fitness, .get-started{
+
+        display: flex;
+        flex-direction: column;
+    } */
 
 
    
